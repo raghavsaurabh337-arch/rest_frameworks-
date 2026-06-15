@@ -20,9 +20,9 @@ from API import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('home/<int:pk>',views.student_detail),
-    # path('home/',views.student_list),
-    # path('',views.list),
-    # path('login/<int:pk>',views.list_form),
+    path('home/<int:pk>',views.student_detail),
+    path('home/',views.student_list),
+    path('',views.list),
+    path('login/<int:pk>',views.list_form),
     path('cr/',views.login_create),
 ]
