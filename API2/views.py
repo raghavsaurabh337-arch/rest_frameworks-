@@ -78,4 +78,4 @@ def Student_api(request):
         res = {'msg': 'Data Deleted Successfully'}
         json_data = JSONRenderer().render(res)
         return HttpResponse(json_data,content_type='application/json')
-    
+       
